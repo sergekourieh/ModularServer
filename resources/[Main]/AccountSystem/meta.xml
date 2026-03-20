@@ -1,0 +1,5 @@
+<meta>
+    <info description="Manages player accounts, including registration, login, and logout functionality."/>
+    
+    <script src="accountSystem.lua"/>
+</meta>

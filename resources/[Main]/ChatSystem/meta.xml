@@ -1,0 +1,5 @@
+<meta>
+    <info description="Enables clients to communicate with each other through a chat system."/>
+
+    <script src="chat.lua"/>
+</meta>

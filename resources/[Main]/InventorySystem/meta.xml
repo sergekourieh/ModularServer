@@ -1,0 +1,5 @@
+<meta>
+    <info description="Manages player inventory, item pickup, drop, and storage."/>
+
+    <script src="inventory.lua"/>
+</meta>

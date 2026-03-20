@@ -1,0 +1,24 @@
+<XML>
+    <SERVER>
+        <MAX_CONNECTION_PER_IP>5</MAX_CONNECTION_PER_IP> <!--Set to 0 to disable-->
+        <TCP_PORT>13000</TCP_PORT>
+        <UDP_PORT>13001</UDP_PORT>
+        <HTTP_PORT>22000</HTTP_PORT>
+        <UDP_COOLDOWN_MILLISECOND>200</UDP_COOLDOWN_MILLISECOND> <!-- 0.2 seconds -->
+        <TCP_COOLDOWN_MILLISECOND>1000</TCP_COOLDOWN_MILLISECOND> <!-- The shorter it is, the more likely DDOS/Flooding -->
+        <TCP_RECEIVE_TIME_OUT>5000</TCP_RECEIVE_TIME_OUT> <!-- Time out for receive data from  client 5 seconds -->
+        <TCP_SEND_TIME_OUT>5000</TCP_SEND_TIME_OUT> <!-- Time out for sending data to client: 5 seconds -->
+        <UDP_RECEIVE_BUFFER_SIZE>65536</UDP_RECEIVE_BUFFER_SIZE>
+        <UDP_SEND_BUFFER_SIZE>65536</UDP_SEND_BUFFER_SIZE>
+        <TCP_RECEIVE_BUFFER_SIZE>65536</TCP_RECEIVE_BUFFER_SIZE>
+        <TCP_SEND_BUFFER_SIZE>65536</TCP_SEND_BUFFER_SIZE>
+        <TCP_MAX_PACKET_SIZE>65536</TCP_MAX_PACKET_SIZE> <!-- Maximum TCP packet size a client can send to the server-->
+        <ENABLE_CHATGPT>false</ENABLE_CHATGPT>
+        <CHATGPT_API></CHATGPT_API>
+    </SERVER>
+    <SSL>
+        <ENABLE>false</ENABLE> <!--enable or disable SSL encryption true/false-->
+        <CERTIFICATION_PATH>cert.pfx</CERTIFICATION_PATH><!--Path to the certificate, root folder is where ModularServer.exe is.-->
+        <CERTIFICATION_PASSWORD>1234</CERTIFICATION_PASSWORD><!--Password of the certificate.-->
+    </SSL>
+</XML>

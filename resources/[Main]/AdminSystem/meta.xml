@@ -1,0 +1,5 @@
+<meta>
+    <info description="Provides administrative tools to moderate players, such as banning, kicking, and modifying certain player data."/>
+
+    <script src="admin.lua"/>
+</meta>

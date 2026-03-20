@@ -1,0 +1,5 @@
+<meta>
+    <info description="XO Game system, quick match for Player vs Player, also handles the XO game multiplayer sync" />
+
+    <script src="xo.lua"/>
+</meta>

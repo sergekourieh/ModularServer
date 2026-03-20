@@ -1,0 +1,5 @@
+<meta>
+    <info description="Allows players to start, progress, and complete quests or missions."/>
+
+    <script src="quests.lua"/>
+</meta>

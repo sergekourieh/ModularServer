@@ -1,0 +1,5 @@
+<meta>
+    <info description="Tracks player stats like kills, experience, playtime, and achievements."/>
+
+    <script src="stats.lua"/>
+</meta>

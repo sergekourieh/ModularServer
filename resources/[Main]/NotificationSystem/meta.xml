@@ -1,0 +1,5 @@
+<meta>
+    <info description="Sends alerts, messages, or pop-ups to clients."/>
+
+    <script src="notification.lua"/>
+</meta>

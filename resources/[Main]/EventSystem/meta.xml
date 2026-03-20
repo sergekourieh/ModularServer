@@ -1,0 +1,5 @@
+<meta>
+    <info description="Handles server-wide or scheduled events for players."/>
+
+    <script src="events.lua"/>
+</meta>

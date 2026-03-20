@@ -1,0 +1,4 @@
+<meta>
+    <info description="Time series forecasting unemployment rate in US per state"/>
+    <script src="forecast.lua"/>
+</meta>

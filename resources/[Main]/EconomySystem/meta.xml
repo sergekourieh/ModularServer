@@ -1,0 +1,5 @@
+<meta>
+    <info description="Handles player money, trading, and virtual shop transactions."/>
+
+    <script src="economy.lua"/>
+</meta>

@@ -1,0 +1,5 @@
+<meta>
+    <info description="Manages friend lists, private messaging, and social connections."/>
+
+    <script src="friends.lua"/>
+</meta>
